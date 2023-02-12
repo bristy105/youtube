@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Paper,IconButton } from '@mui/material';
-import {Search, SearchIcon} from '@mui/icons-material'
+import {Search} from '@mui/icons-material'
 const SearchBar = () => {
   return (
    <Paper
