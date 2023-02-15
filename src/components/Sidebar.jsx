@@ -13,16 +13,18 @@ const Sidebar = () => (
 
         }}
         >
-            {categories.map((category) => {
-                 console.log(category.name);
+            {categories.map((category) => (
+                 
                 <button className='category-btn'
                     style={{
                         background:category.name === selectedCategories 
                         && '#FC1503'
                     }}>
+                         <span>{category.icon}</span>
                     <span>{category.name}</span>
+                   
                 </button>
-            })}
+            ))}
         </Stack>
 ) 
 
